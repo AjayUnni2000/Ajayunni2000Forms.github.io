@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<style>
+input[type=text], input[type=password] {
+  width: 75%;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  background: #B8B8B8;
+}
+button {
+  background-color:white; 
+  border: 2px solid orange;
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+}
+</style>
+</head>
+<body background="mmt.jpg" align="center">
+<form action="/action_page.php">
+  <table align="center" width="500px" height="300px" style="margin-top:100px">
+  <tr>
+   <td width="500" height="350" margin="10" bgcolor="white" style="color:orange; padding: 20px;">
+    <center><h1>Login Here!!!</h1>
+    <hr color="#606060"></center>
+
+    <input type="text" placeholder="Enter Username" name="uname" id="uname" required><br><br>
+
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+
+    <button type="submit" name="submit" value="Submit"/>Sign in
+    <button type="reset" name="submit" value="Reset"/>Cancel
+
+   </td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>
